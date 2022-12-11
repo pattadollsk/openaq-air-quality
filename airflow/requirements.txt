@@ -1,0 +1,6 @@
+apache-airflow-providers-google
+apache-airflow-providers-amazon
+# apache-airflow[amazon]
+# boto3
+awscliv2
+# pyarrow
