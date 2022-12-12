@@ -64,8 +64,8 @@ x-airflow-common: &airflow-common
     GCP_GCS_BUCKET: "openaq_data_lake_de-project-370906"
 
     # AWS CLI Credentials for S3
-    AWS_ACCESS_KEY_ID: "AKIAVQ5MEVJXGX4VKHMF"
-    AWS_SECRET_ACCESS_KEY: "IGRZbmVSYmneJOM75ukV/dCVxMEnmv3ydA1iik/H"
+    AWS_ACCESS_KEY_ID: "<Your AWS_ACCESS_KEY_ID>"
+    AWS_SECRET_ACCESS_KEY: "<Your AWS_SECRET_ACCESS_KEY>"
 
   volumes:
     - ./dags:/opt/airflow/dags
